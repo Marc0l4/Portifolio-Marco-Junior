@@ -2,7 +2,7 @@
 
 Site pessoal desenvolvido para apresentar meus projetos, minha stack e formas de contato. O visual segue uma estética de terminal/git log, remetendo ao meu foco em desenvolvimento backend.
 
-🔗 **Deploy:** _adicionar link após publicar na Vercel_
+🔗 **Deploy:** (https://portifolio-marco-junior.vercel.app/)
 📎 **LinkedIn:** [linkedin.com/in/marco-junior-7781472a8](https://www.linkedin.com/in/marco-junior-7781472a8/)
 
 ---
