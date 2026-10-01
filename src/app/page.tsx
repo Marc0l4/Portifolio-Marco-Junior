@@ -42,6 +42,14 @@ interface RepoProject {
 // Projetos com deploy ao vivo na Vercel — entram como "janela de navegador"
 const LIVE_PROJECTS: LiveProject[] = [
   {
+    ref: "url-shortener",
+    title: "Encurtador de URLs",
+    desc: "Encurtador de URLs com contagem de cliques, API REST em Node.js e banco Postgres (Neon).",
+    lang: "Node.js",
+    liveUrl: "https://url-shortener-0dhz.onrender.com",
+    repoUrl: `${LINKS.github}/url-shortener`,
+  },
+  {
     ref: "dev-memory-react-next-app",
     title: "Jogo da Memória",
     desc: "Jogo da memória com React e Next.js — controle de cartas viradas, pares e pontuação.",
@@ -144,6 +152,7 @@ const LANG_COLOR: Record<string, string> = {
   HTML: "#e8664a",
   "Next.js": "var(--color-paper)",
   "Full-stack": "var(--color-teal)",
+  "Node.js": "var(--color-amber)",
 };
 
 function hostFromUrl(url: string): string {
